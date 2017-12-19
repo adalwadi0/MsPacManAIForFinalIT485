@@ -1,0 +1,4 @@
+Add these two lines to Executor.java. The First one tests out the Pacman AI
+The Second one is the ghost AI
+exec.runGameTimed(new Survive(),new StarterGhosts(),visual);	
+exec.runGameTimed(new HumanController(new KeyBoardInput()),new Cover(),visual);
